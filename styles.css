@@ -1,6 +1,6 @@
 body {
     background: white;
-    color: #502d2d;
+    color: rgb(80, 45, 45);
 
     margin: 0;
     text-align: center;
@@ -9,7 +9,7 @@ body {
     font-size: 18;
 }
 h1,h2 {
-    color:rgb(203, 91, 91);
+    color:rgb(80, 45, 45);
 }
 
 b {
@@ -32,6 +32,7 @@ th {
 
 a:link,a:visited{
     color:rgb(243, 62, 62);
+    text-decoration: none;
 }
 a:hover{
     color:rgb(231, 151, 151);
@@ -62,16 +63,42 @@ a:active{
     align-items: left;
 }
 
-.container::after {
-    content: "";
-    clear: both;
-}
 
 .banner {
     text-align: center;
-    margin-top: 5cm;
+    margin-top: 3cm;
     margin-bottom: 5cm; 
     margin-left: auto;
     margin-right: auto;
+}
 
+.banner-image {
+    border: 5px solid rgb(126, 126, 126);
+    border-radius: 25px;
+}
+
+.banner-image:hover
+{
+    border: 5px solid rgb(204, 204, 204);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;;
+    height: 7.5%;
+    width: 90%;
+    background-color: white;
+    color: #502d2d;
+}
+
+.footer-link {
+    display: inline;
+    margin-right: 1cm;
+}
+
+.icon {
+    width: 20px;
 }
