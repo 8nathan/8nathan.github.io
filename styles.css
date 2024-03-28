@@ -1,5 +1,59 @@
 body {
-    margin: 0;
     background: white;
+    color: #502d2d;
+
+    margin: 0;
     text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+}
+
+h1,h2 {
+    color:rgb(203, 91, 91);
+}
+
+b {
+    color: #5c0c0c;
+}
+
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+th {
+    padding: 15px;
+}
+
+
+#introduction {
+    text-align: left;
+    align-items: center;
+    margin: 5cm;
+
+    font-size: xx-large;
+}
+
+.main-section {
+    text-align: left;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    margin-bottom: 5cm;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+}
+
+.container::after {
+    content: "";
+    clear: both;
 }
