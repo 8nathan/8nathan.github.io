@@ -5,10 +5,9 @@ body {
     margin: 0;
     text-align: center;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16;
+    font-family: monospace;
+    font-size: 18;
 }
-
 h1,h2 {
     color:rgb(203, 91, 91);
 }
@@ -16,20 +15,29 @@ h1,h2 {
 b {
     color: #5c0c0c;
 }
-
 table {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-}
 
+    font-size: 18;
+}
 td {
     padding-left: 15px;
     padding-right: 15px;
 }
-
 th {
     padding: 15px;
+}
+
+a:link,a:visited{
+    color:rgb(243, 62, 62);
+}
+a:hover{
+    color:rgb(231, 151, 151);
+}
+a:active{
+    color:rgb(63, 2, 2);
 }
 
 
