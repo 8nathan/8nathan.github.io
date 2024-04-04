@@ -9,7 +9,7 @@ body {
     font-size: 18;
 }
 h1,h2 {
-    color:rgb(80, 45, 45);
+    color:rgb(237, 127, 127);
 }
 
 b {
@@ -58,11 +58,24 @@ a:active{
     margin-top: 3cm;
 }
 
+.gallery {
+    
+}
+
+.gallery-screenshot {
+    display: float;
+    margin: 10px;
+}
+
 .container {
     display: flex;
     align-items: left;
 }
 
+.wide-banner {
+    text-align: center;
+    margin: 0px;
+}
 
 .banner {
     text-align: center;
@@ -78,7 +91,7 @@ a:active{
 }
 
 .banner-image:hover {
-    border: 4px solid rgb(243, 62, 62);
+    opacity: 75%;
 }
 
 .footer {
