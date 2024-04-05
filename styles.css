@@ -45,15 +45,15 @@ a:active{
 #introduction {
     text-align: left;
     align-items: center;
-    margin: 5cm;
+    margin: 10%;
 
     font-size: xx-large;
 }
 
 .main-section {
     text-align: left;
-    margin-left: 8cm;
-    margin-right: 8cm;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 3cm;
     margin-top: 3cm;
 }
