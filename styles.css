@@ -16,6 +16,13 @@ b {
     color: #5c0c0c;
 }
 table {
+    white-space: nowrap;
+    table-layout: auto;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -23,11 +30,14 @@ table {
     font-size: 18;
 }
 td {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 th {
-    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 a:link,a:visited{
