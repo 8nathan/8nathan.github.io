@@ -43,6 +43,8 @@ th {
 a:link,a:visited{
     color:rgb(243, 62, 62);
     text-decoration: none;
+
+    transition: color 0.2s ease;
 }
 a:hover{
     color:rgb(231, 151, 151);
@@ -96,12 +98,17 @@ a:active{
 }
 
 .banner-image {
-    border: 4px solid transparent;
+    border: 5px solid transparent;
     border-radius: 25px;
+    opacity: 100%;
+
+    transition: opacity 0.5s ease, border-bottom 0.5s ease, transform 0.5s ease;
 }
 
 .banner-image:hover {
-    opacity: 75%;
+    opacity: 70%;
+    border-bottom: 5px solid red;
+    transform:scale(1.01);
 }
 
 .footer {
