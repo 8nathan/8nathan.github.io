@@ -79,7 +79,8 @@ a:active{
     margin: 1%;
 }
 
-.container {
+.introduction-text {
+    width: 90%;
     display: flex;
     align-items: left;
 }
