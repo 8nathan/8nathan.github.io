@@ -70,6 +70,14 @@ a:active{
     margin-top: 3cm;
 }
 
+.demos-section {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3cm;
+    margin-top: 3cm;
+}
+
 .gallery {
     
 }
@@ -94,8 +102,8 @@ a:active{
 
 .banner {
     text-align: center;
-    margin-top: 3cm;
-    margin-bottom: 5cm; 
+    margin-top: 1cm;
+    margin-bottom: 3cm; 
     margin-left: auto;
     margin-right: auto;
 }
